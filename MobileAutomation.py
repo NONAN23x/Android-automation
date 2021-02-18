@@ -9,8 +9,8 @@ def main():
         hour = datetime.datetime.now().hour - 12 if datetime.datetime.now().hour > 13 else datetime.datetime.now().hour
         meridian = " PM" if datetime.datetime.now().hour >= 12 else " AM"
         current_time = str(hour) + ':' + str(datetime.datetime.now().minute) + meridian
+        print(current_time)
         if current_time in termuxScheduler.dictionary:
-            print(current_time)
             os.system(termuxScheduler.dictionary[current_time])
             time.sleep(45)
         else:
