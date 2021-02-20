@@ -1,9 +1,9 @@
 def notification(string):
-    return f"termux-notification -c Notification -t {string}"
+    return f"termux-notification -c Notification -t "{string}""
 
 
 def toast(string):
-    return f"termux-toast -b black -c white {string}"
+    return f"termux-toast -b black -c white "{string}""
 
 
 def torch(string):
@@ -11,7 +11,7 @@ def torch(string):
 
 
 def speak(string):
-    return f"termux-tts-speak {string}"
+    return f"termux-tts-speak "{string}""
 
 
 def volume(string):
