@@ -1,17 +1,17 @@
 def notification(string):
-    return f"bash termux-notification -t Notification -c '{string}'"
+    return f"termux-notification -t Notification -c '{string}'"
 
 
 def torch(string):
-    return f"bash termux-torch '{string}'"  # These functions are simplified methods for using system calls
+    return f"termux-torch '{string}'"  # These functions are simplified methods for using system calls
 
 
 def speak(string):
-    return f"bash termux-tts-speak '{string}'"
+    return f"termux-tts-speak '{string}'"
 
 
 def volume(string):
-    return f"bash termux-volume '{string}'"
+    return f"termux-volume '{string}'"
 
 
 dictionary = {
