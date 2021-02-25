@@ -20,7 +20,7 @@ def main():  # Actual piece of code
         try:  # Try and except for dealing with Keyboard Interrupt, for clean code
             if current_time in termuxScheduler.dictionary:
                 # And here comes the actual part where python is given decision making privilege
-                print(termuxScheduler.dictionary[current_time])
+                os.system(termuxScheduler.dictionary[current_time])
                 # This is the piece of code that's making system commands
                 time.sleep(40)  # sleep method for delaying the process
             else:
