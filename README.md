@@ -21,7 +21,7 @@ Steps to make it work...
 6) Go to application manager, enable all the permissions for the temux app (Google how to do this if you have no idea on what im talking about)
 7) clone this repo into your phone (git clone https://github.com/NONAN23x/Android-automation)
 8) Navigate to this cloned repository (cd Android-automation)
-9) Run the script. (python Mobileautomation.py)
+9) Run the script. (python MobileAutomation.py)
 
 So that does it.
 If you know what to do, you can change the code in your system according to your personal preferance
