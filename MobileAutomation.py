@@ -1,8 +1,17 @@
-#!/bin/python3
 import datetime  # This module helps use time
 import time  # And this one's for the delay
 import os  # Main module that helps run shell commands
 import Schedule  # This is a local module
+import colorama
+cyan = colorama.Fore.CYAN
+green = colorama.Fore.GREEN
+black = colorama.Fore.BLACK
+blue = colorama.Fore.BLUE
+red = colorama.Fore.RED
+yellow = colorama.Fore.YELLOW
+light_green = colorama.Fore.LIGHTGREEN_EX
+light_cyan = colorama.Fore.LIGHTCYAN_EX
+finish = colorama.Style.RESET_ALL
 
 
 def main():  # Actual piece of code
@@ -12,11 +21,11 @@ def main():  # Actual piece of code
         # then tune this logic yourself! ;)
         meridian = " PM" if datetime.datetime.now().hour >= 12 else " AM"  # This is self explanatory
         current_time = str(hour) + ':' + str(datetime.datetime.now().minute) + meridian
-        # this is the variable I'll be using to refer to actual time
+        # Actual variable I'll be using to refer to call actual time
         if current_time not in Schedule.dictionary:
-            print(current_time, "    (no task was assigned)")  # Yes, I use print statements for debugging ;)
+            print(light_cyan, current_time, "    (No task)", finish)  # Yes, I use print statements for debugging ;)
         else:
-            print(current_time,"    " ,Schedule.dictionary[current_time])
+            print(green, current_time, "    Program Executed", finish)
         ###
         try:  # Try and except for dealing with Keyboard Interrupt, for clean code
             if current_time in Schedule.dictionary:
@@ -27,11 +36,12 @@ def main():  # Actual piece of code
             else:
                 time.sleep(30)
         except KeyboardInterrupt:
-            print("^Exit")
-            print("Exiting...")
+            print("\n", red, "^Exit", finish)
+            print(red, "Program closed...", finish)
             break
         ###
 
 
 if __name__ == '__main__':  # Professional way to run a code, right?
+    os.system("clear")
     main()
