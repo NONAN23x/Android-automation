@@ -1,9 +1,9 @@
-def notification(string):
-    return f"termux-notification -t Notification -c '{string}'"
+def notification(string, sound="notification1"):
+    return f"termux-media-player play /Media/{sound} && termux-vibrate -f && termux-notification -t Notification -c '{string}'"
 
 
 def torch(string):
-    return f"termux-torch '{string}'"  # These functions are simplified methods for using system calls
+    return "termux-torch '" + string + "'"  # These functions are simplified methods for using system calls
 
 
 def speak(string):
