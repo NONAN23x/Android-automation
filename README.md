@@ -1,4 +1,4 @@
-# Android-automation    (V 0.9.2)
+# Android-automation    (V 0.9.6)
 
 
 This project isn't perfect, but should work really well once its finished :)
