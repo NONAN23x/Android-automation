@@ -7,6 +7,7 @@ Prerequisites: Termux app
 
 Termux is a linux emulator for android devices and is a perfect way to start learning linux on the go
 The code in this repository makes use the freedom to make system calls using python in android terminal
+This project is active, I will regularly update the code and add new features
 
 # Keep in mind that you may need to acquire wavelock when initialising the program
 
@@ -24,4 +25,11 @@ Steps to make it work...
 
 So that does it.
 If you know what to do, you can change the code in your system according to your personal preferance
+The functionality implemented here is not limited to what you are seeing.
+The power if python can be implemented in your phone to even handle machine learning algorithms
+If youre intrested, visit termux wiki and see the immense functionality the app has to offer.
 
+
+Termux official website: https://termux.com/
+Termux wiki: https://wiki.termux.com/wiki/Main_Page
+Termux API wiki: https://wiki.termux.com/wiki/Termux:API
