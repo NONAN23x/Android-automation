@@ -1,3 +1,4 @@
+#!/bin/python3
 import datetime  # This module helps use time
 import time  # And this one's for the delay
 import os  # Main module that helps run shell commands
