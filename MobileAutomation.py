@@ -22,6 +22,15 @@ def main():  # Actual piece of code
         meridian = " PM" if datetime.datetime.now().hour >= 12 else " AM"  # This is self explanatory
         current_time = str(hour) + ':' + str(datetime.datetime.now().minute) + meridian
         # Actual variable I'll be using to refer to call actual time
+        battery = str(os.system("termux-battery-status | grep percentage | cut -d ':' -f 2"))
+        if battery <= "30":
+            Schedule.speak("My battery is low, please charge immediately")
+        elif battery == "50":
+            Schedule.speak("Battery is now 50%")
+        elif battery >= "99":
+            Schedule.speak("My battery is full, please eject the charger")
+        else:
+            continue
         if current_time not in Schedule.dictionary:
             print(light_cyan, current_time, "    (No task)", finish)  # Yes, I use print statements for debugging ;)
         else:
