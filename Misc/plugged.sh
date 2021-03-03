@@ -10,4 +10,4 @@ do
     elif [[ "$VAR3" -eq "$FULL" ]]; then
         echo "Cable connected"
     fi
-DONE
+done
