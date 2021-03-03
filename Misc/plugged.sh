@@ -6,9 +6,9 @@ do
     VAR3="$(termux-battery-status | grep plugged | cut -d ':' -f 2 | cut -d ',' -f 1 | cut -d '"' -f 2)"
 
     if [[ "$VAR3" = "$FULL" ]]; then
-        echo "Cable is plugged"
+        echo termux-tts-speak "Charger connected"
     else
-        echo "Not plugged"
+        sleep 1
        
     fi
 done
