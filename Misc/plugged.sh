@@ -9,4 +9,5 @@ do
         echo "CHARGER CONNECTED"
     else
         echo "CHARGER NOT CONNECTED" 
+    fi
 done
