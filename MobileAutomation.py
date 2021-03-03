@@ -13,9 +13,6 @@ light_green = colorama.Fore.LIGHTGREEN_EX
 light_cyan = colorama.Fore.LIGHTCYAN_EX
 finish = colorama.Style.RESET_ALL
 
-def fetch_battery():
-    battery = os.system("python -c 'import os;os.system('termux-battery-status | grep percentage | cut -d ':' -f 2')'")
-    print(battery)
 
 
 def main():  # Actual piece of code
@@ -27,7 +24,7 @@ def main():  # Actual piece of code
         current_time = str(hour) + ':' + str(datetime.datetime.now().minute) + meridian
         # Actual variable I'll be using to refer to call actual time
         
-        fetch_battery()
+       
         
         if current_time not in Schedule.dictionary:
             print(light_cyan, current_time, "    (No task)", finish)  # Yes, I use print statements for debugging ;)
