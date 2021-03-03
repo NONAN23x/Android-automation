@@ -9,6 +9,7 @@ do
         if [[ $ALLOW ]]
             termux-tts-speak "Charger connected"
             $ALLOW = FALSE
+        fi
     else
         ALLOW=TRUE
         sleep 1
