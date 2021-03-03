@@ -34,7 +34,7 @@ def main():  # Actual piece of code
                 # And here comes the actual part where python is given decision making privilege
                 os.system(Schedule.dictionary[current_time])
                 # This is the piece of code that's making system commands
-                time.sleep(40)  # sleep method for delaying the process
+                time.sleep(30)  # sleep method for delaying the process
             else:
                 time.sleep(30)
         except KeyboardInterrupt:
