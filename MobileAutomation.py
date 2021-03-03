@@ -23,6 +23,7 @@ def main():  # Actual piece of code
         current_time = str(hour) + ':' + str(datetime.datetime.now().minute) + meridian
         # Actual variable I'll be using to refer to call actual time
         os.system("bash batterychecker.sh")
+        time.sleep(0.5)
         if current_time not in Schedule.dictionary:
             print(light_cyan, current_time, "    (No task)", finish)  # Yes, I use print statements for debugging ;)
         else:
