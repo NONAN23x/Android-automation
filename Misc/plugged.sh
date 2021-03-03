@@ -7,9 +7,8 @@ do
 
     if [[ "$VAR3" -ne "$FULL" ]]; then
         echo $VAR3
-        echo $FULL
     elif [[ "$VAR3" -eq "$FULL" ]]; then
         echo $VAR3
-        echo $FULL
+       
     fi
 done
