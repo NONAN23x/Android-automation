@@ -1,5 +1,5 @@
 def notification(string, sound="notification1"):
-    return f"termux-media-player play Media/{sound} && termux-vibrate -f && termux-notification -t Notification -c \"{string}\" && termux-toast \"{string}\""
+    return f"termux-media-player play Media/{sound} && termux-vibrate -f && termux-notification -t Notification -c \"{string}\" && termux-toast -b black \"{string}\""
 
 
 def torch(string):
@@ -16,39 +16,39 @@ def volume(string):
 
 dictionary = {
 
-    "7:0 AM": notification("Wake up"),
+    "7:0 AM": notification("Good Morning!"),
     "7:30 AM": notification("Wake up"),
-    "8:0 AM": notification("Duolingo"),
-    "8:30 AM": notification("Duolingo"),
-    "9:0 AM": notification("Workout"),
-    "9:30 AM": notification("Workout"),
-    "10:0 AM": notification("NOt Assigned"),
-    "10:30 AM": notification("Not Assigned"),
-    "11:0 AM": notification("TIme Pass"),
+    "8:0 AM": notification("Get ready to Workout"),
+    "8:30 AM": notification("Workout"),
+    "9:0 AM": notification("Tiem for some Duolingo"),
+    "9:30 AM": notification("Time for some Duolingo"),
+    "10:0 AM": notification("Grind Time"),
+    "10:30 AM": notification("Grind time"),
+    "11:0 AM": notification("Read PicoPrimer"),
     "11:30 AM": notification("Time PAss"),
     "12:0 PM": notification("Time PAss"),
     "12:30 PM": notification("Time PAss"),
-    "1:0 PM": notification("Grind Time"),
-    "1:30 PM": notification("Grind Time"),
+    "1:0 PM": notification("Grinding Time"),
+    "1:30 PM": notification("Grinding Time"),
     "2:0 PM": notification("Duolingo"),
-    "2:30 PM": notification("Duilingo"),
+    "2:30 PM": notification("Time for some Malware Analysis"),
     "3:0 PM": notification("Anime Time"),
     "3:30 PM": notification("Anime Time"),
-    "4:0 PM": notification("Whatever"),
-    "4:30 PM": notification("Programming Time"),
+    "4:0 PM": notification("Take some break"),
+    "4:30 PM": notification("Daily Tryhackme CTF streak"),
     "5:0 PM": notification("Programming Time"),
     "5:30 PM": notification("Programming Time"),
     "6:0 PM": notification("Time for some Onion Routing"),
     "6:30 PM": notification("Onion Routing"),
-    "7:0 PM": notification("Nothing SPecial"),
-    "7:30 PM": notification("Anime Time"),
+    "7:0 PM": notification("Time for some break"),
+    "7:30 PM": notification("Do some of c pointers"),
     "8:0 PM": notification("Dinner"),
-    "8:30 PM": notification("MOre Programming"),
-    "9:0 PM": notification("Finishing up the chores"),
-    "9:30 PM": notification("Getting ready for bed"),
-    "10:0 PM": notification("Anime"),
-    "10:30 PM": notification("Pointers out of index"),
-    "11:0 PM": notification("Go to sleep!")
+    "8:30 PM": notification("Read something productive"),
+    "9:0 PM": notification("Don't Look at the screen too much!"),
+    "9:30 PM": notification("Have you completed your duonlingo lession today?"),
+    "10:0 PM": notification("Its already 10, wrap up your work, if pending..."),
+    "10:30 PM": notification("Anime time"),
+    "11:0 PM": notification("Its time to sleep already")
 }
 # You can configure this dictionary to your preference
 # Simplest yet affective implementation for Android Automation.
