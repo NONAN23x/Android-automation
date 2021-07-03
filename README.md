@@ -1,4 +1,4 @@
-# Android-automation    (V 1.6.4)
+# Android-automation    (V 2.6)
 
 
 Just a simple python script to make organized android system automation
