@@ -47,7 +47,7 @@ dictionary = {
     "9:0 PM": notification("Finishing up the chores"),
     "9:30 PM": notification("Getting ready for bed"),
     "10:0 PM": notification("Anime"),
-    "10:30 PM": notification("Pointers out of index")
+    "10:30 PM": notification("Pointers out of index"),
     "11:0 PM": notification("Go to sleep!")
 }
 # You can configure this dictionary to your preference
