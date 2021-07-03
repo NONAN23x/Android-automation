@@ -9,7 +9,7 @@ Termux is a linux emulator for android devices and is a perfect way to start lea
 The code in this repository makes use the freedom to make system calls using python in android terminal
 This project is active, I will regularly update the code and add new features
 
-# Keep in mind that you may need to acquire wavelock when initialising the program
+# Keep in mind that you need to acquire wavelock to propoerly run this code
 
 Steps to make it work...
 
