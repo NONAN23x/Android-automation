@@ -1,9 +1,11 @@
 #!/bin/python3
-import datetime  # This module helps use time
+
+import datetime  # Module to use time
 import time  # And this one's for the delay
 import os  # Main module that helps run shell commands
-import Schedule  # This is a local module
+import Schedule  # Locally imported module
 import colorama
+
 cyan = colorama.Fore.CYAN
 green = colorama.Fore.GREEN
 black = colorama.Fore.BLACK
@@ -14,8 +16,8 @@ light_green = colorama.Fore.LIGHTGREEN_EX
 light_cyan = colorama.Fore.LIGHTCYAN_EX
 finish = colorama.Style.RESET_ALL
 
-def main():  # Actual piece of code
-    while True:  # True condition for running the program forever
+def main(): 
+    while True:  
         hour = datetime.datetime.now().hour - 12 if datetime.datetime.now().hour >= 13 else datetime.datetime.now().hour
         # Here 'hour' variable is configured to use 12 hour timezone, if you prefer 24 hours...
         # then tune this logic yourself! ;)
@@ -27,7 +29,7 @@ def main():  # Actual piece of code
             print(light_cyan, current_time, "    (No task)", finish)  # Yes, I use print statements for debugging ;)
         else:
             print(green, current_time, "    Program Executed", finish)
-        ###
+            
         try:  # Try and except for dealing with Keyboard Interrupt, for clean code
             if current_time in Schedule.dictionary:
                 # And here comes the actual part where python is given decision making privilege
@@ -40,7 +42,6 @@ def main():  # Actual piece of code
             print("\n", red, "^Exit", finish)
             print(red, "Program closed...", finish)
             break
-        ###
 
 
 if __name__ == '__main__':  # Professional way to run a code, right?
