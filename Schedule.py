@@ -1,5 +1,5 @@
 def notification(string, sound="notification1"):
-    return f"termux-media-player play Media/{sound} && termux-vibrate -f && termux-notification -t Notification -c \"{string}\" && termux-toast -b black \"{string}\""
+    return f"termux-media-player play Media/{sound} && termux-notification -t Notification -c \"{string}\" && termux-toast -b black \"{string}\""
 
 
 def torch(string):
