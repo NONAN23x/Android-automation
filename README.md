@@ -16,7 +16,7 @@ Steps to make it work...
 1) Downlaod Termux on your android device. ```https://play.google.com/store/apps/details?id=com.termux```
 2) Download Termux-api on your android device ```https://play.google.com/store/apps/details?id=com.termux.api```
 3) Update sources ```apt update && apt upgrade -y```
-4) Install python ```apt-install python -y```
+4) Install python ```apt install python -y```
 5) Install git ```apt install git -y```
 6) Install termux-api in shell ```pkg install termux-api```
 7) Go to device's application manager, enable all the permissions for the temux app (Google how to do this if you have no idea about android permissions)
