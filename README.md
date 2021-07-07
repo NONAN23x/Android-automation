@@ -14,7 +14,7 @@ This project is active, I will regularly update the code and add new features
 Steps to make it work...
 
 1) Downlaod Termux on your android device. (https://play.google.com/store/apps/details?id=com.termux)
-2) Update the env (apt-update && apt-upgrade -y)
+2) Update the env (```apt-update && apt-upgrade -y```)
 3) Install python (apt-install python -y)
 4) Install git (apt install git -y)
 5) Install termux-api (pkg install termux-api)
