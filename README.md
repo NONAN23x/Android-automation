@@ -30,6 +30,6 @@ The power if python can be implemented in your phone to even handle machine lear
 If youre intrested, visit termux wiki and see the immense functionality the app has to offer.
 
 
-Termux official website: ```https://termux.com/```
-Termux wiki: ```https://wiki.termux.com/wiki/Main_Page```
-Termux API wiki: ```https://wiki.termux.com/wiki/Termux:API```
+Termux official website: ```https://termux.com/```\
+Termux wiki: ```https://wiki.termux.com/wiki/Main_Page```\
+Termux API wiki: ```https://wiki.termux.com/wiki/Termux:API```\
