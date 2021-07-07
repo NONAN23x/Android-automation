@@ -1,4 +1,4 @@
-# Android-automation    (V 2.7)
+# Android-automation    (V 2.8.5)
 
 
 Just a simple python script to make android os commands
