@@ -26,7 +26,7 @@ Steps to make it work...
 11) Run it ```./MobileAutomation.py```
 
 So that does it.
-If you know what to do, you can change the code in ```Scheduling.py``` to fit your desired time table
+If you know what to do, you can change the code in ```Schedule.py``` to fit your desired time table
 The functionality implemented here is not limited to what it semms
 The power of python can be used to even handle machine learning algorithms on your handheld device
 If you're intrested, visit termux wiki and see the immense functionality the app has to offer.
