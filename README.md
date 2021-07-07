@@ -32,4 +32,4 @@ If youre intrested, visit termux wiki and see the immense functionality the app 
 
 Termux official website: ```https://termux.com/```\
 Termux wiki: ```https://wiki.termux.com/wiki/Main_Page```\
-Termux API wiki: ```https://wiki.termux.com/wiki/Termux:API```\
+Termux API wiki: ```https://wiki.termux.com/wiki/Termux:API```
