@@ -13,15 +13,15 @@ This project is active, I will regularly update the code and add new features
 
 Steps to make it work...
 
-1) Downlaod Termux on your android device. (https://play.google.com/store/apps/details?id=com.termux)
-2) Update the env (```apt-update && apt-upgrade -y```)
-3) Install python (apt-install python -y)
-4) Install git (apt install git -y)
-5) Install termux-api (pkg install termux-api)
+1) Downlaod Termux on your android device. ```https://play.google.com/store/apps/details?id=com.termux```
+2) Update the env ```apt-update && apt-upgrade -y```
+3) Install python ```apt-install python -y```
+4) Install git ```apt install git -y```
+5) Install termux-api ```pkg install termux-api```
 6) Go to application manager, enable all the permissions for the temux app (Google how to do this if you have no idea on what im talking about)
-7) clone this repo into your phone (git clone https://github.com/NONAN23x/Android-automation)
-8) Navigate to this cloned repository (cd Android-automation)
-9) Run the script. (python MobileAutomation.py)
+7) clone this repo into your phone ```git clone https://github.com/NONAN23x/Android-automation```
+8) Navigate to this cloned repository ```cd Android-automation```
+9) Run the script. ```python MobileAutomation.py```
 
 So that does it.
 If you know what to do, you can change the code in your system according to your personal preferance
@@ -30,6 +30,6 @@ The power if python can be implemented in your phone to even handle machine lear
 If youre intrested, visit termux wiki and see the immense functionality the app has to offer.
 
 
-Termux official website: https://termux.com/
-Termux wiki: https://wiki.termux.com/wiki/Main_Page
-Termux API wiki: https://wiki.termux.com/wiki/Termux:API
+Termux official website: ```https://termux.com/```
+Termux wiki: ```https://wiki.termux.com/wiki/Main_Page```
+Termux API wiki: ```https://wiki.termux.com/wiki/Termux:API```
